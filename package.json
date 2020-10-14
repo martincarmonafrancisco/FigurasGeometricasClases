@@ -1,7 +1,6 @@
 {
   "name": "FigurasGeometricasClases",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
   "dependencies": {
     "@types/mongoose": "^5.7.36",
     "mongoose": "^5.10.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincarmonafrancisco/FigurasGeometricasClases.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martincarmonafrancisco/FigurasGeometricasClases/issues"
+  },
+  "homepage": "https://github.com/martincarmonafrancisco/FigurasGeometricasClases#readme",
+  "description": ""
 }
