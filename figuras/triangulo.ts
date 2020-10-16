@@ -28,11 +28,11 @@ class Triangulo{
         return this._ladotri2
     }
 
-    getArea(){
+    area(){
         return (this._basetri * this._alturatri)/2
     }
 
-    getPerimetro(){
+    perimetro(){
         return this._basetri + this._ladotri1 + this._ladotri2
     }
 

@@ -18,8 +18,8 @@ const main = async () => {
                 ladotri1 =  parseInt( await leerTeclado('Introduzca un lado del triángulo'))
                 ladotri2 =  parseInt( await leerTeclado('Introduzca otro lado del triángulo'))
                 let triangulo = new Triangulo(basetri,alturatri,ladotri1,ladotri2)
-                console.log("Área=" + triangulo.getArea())
-                console.log("Perímetro=" + triangulo.getPerimetro())
+                console.log("Área=" + triangulo.area())
+                console.log("Perímetro=" + triangulo.perimetro())
                 break
             case 2:
 
@@ -27,8 +27,8 @@ const main = async () => {
                 let ladocuad:number
                 ladocuad = parseInt(await leerTeclado('Introduzca el lado'))
                 let cuadrado = new Cuadrado(ladocuad)
-                console.log("Área=" + cuadrado.getArea())
-                console.log("Perímetro=" + cuadrado.getPerimetro())
+                console.log("Área=" + cuadrado.area())
+                console.log("Perímetro=" + cuadrado.perimetro())
                 break
             case 3:
 
@@ -36,8 +36,8 @@ const main = async () => {
                 let radiocirc:number
                 radiocirc = parseInt(await leerTeclado('Introduzca el radio'))
                 let circulo = new Circulo(radiocirc)
-                console.log("Área="+ circulo.getArea())
-                console.log("Perímetro="+ circulo.getPerimetro())
+                console.log("Área="+ circulo.area())
+                console.log("Perímetro="+ circulo.perimetro())
                 break
             case 0:
 

@@ -10,11 +10,11 @@ class Cuadrado{
         return this._lado1
     }
 
-    getArea(){
+    area(){
         return (this._lado1*this._lado1)
     }
 
-    getPerimetro(){
+    perimetro(){
         return this._lado1 * 4
     }
 

@@ -10,11 +10,11 @@ class Circulo{
         return this._radiocirc
     }
 
-    getPerimetro(){
+    perimetro(){
         return 2*Math.PI*this._radiocirc
     }
 
-    getArea(){
+    area(){
         return Math.PI*(this._radiocirc*this._radiocirc)
     }
 
