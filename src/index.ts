@@ -12,17 +12,14 @@ const main = async () => {
             case 1:
 
                 console.log('Área y perímetro de un triángulo')
-                let basetri: number, 
-                alturatri: number, 
-                ladotri1: number, 
-                ladotri2: number
+                let basetri: number, alturatri: number, ladotri1: number, ladotri2: number
                 alturatri =  parseInt( await leerTeclado('Introduzca la altura'))
                 basetri =  parseInt( await leerTeclado('Introduzca la base'))
                 ladotri1 =  parseInt( await leerTeclado('Introduzca un lado del triángulo'))
                 ladotri2 =  parseInt( await leerTeclado('Introduzca otro lado del triángulo'))
                 let triangulo = new Triangulo(basetri,ladotri1,ladotri2,alturatri)
-                console.log("Área=" + triangulo.area())
-                console.log("Perímetro=" + triangulo.perimetro())
+                console.log(`Área= ${triangulo.area()}`)
+                console.log(`Perímetro= ${triangulo.perimetro()}`)
                 break
             case 2:
 
@@ -30,8 +27,8 @@ const main = async () => {
                 let ladocuad:number
                 ladocuad = parseInt(await leerTeclado('Introduzca el lado'))
                 let cuadrado = new Cuadrado(ladocuad)
-                console.log("Área=" + cuadrado.area())
-                console.log("Perímetro=" + cuadrado.perimetro())
+                console.log(`Área= ${cuadrado.area()}`)
+                console.log(`Perímetro= ${cuadrado.perimetro()}`)
                 break
             case 3:
 
@@ -39,8 +36,8 @@ const main = async () => {
                 let radiocirc:number
                 radiocirc = parseInt(await leerTeclado('Introduzca el radio'))
                 let circulo = new Circulo(radiocirc)
-                console.log("Área="+ circulo.area())
-                console.log("Perímetro="+ circulo.perimetro())
+                console.log(`Área= ${circulo.area()}`)
+                console.log(`Perímetro= ${circulo.perimetro()}`)
                 break
             case 0:
 
