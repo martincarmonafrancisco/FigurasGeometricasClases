@@ -17,7 +17,7 @@ const main = async () => {
                 basetri =  parseInt( await leerTeclado('Introduzca la base'))
                 ladotri1 =  parseInt( await leerTeclado('Introduzca un lado del triángulo'))
                 ladotri2 =  parseInt( await leerTeclado('Introduzca otro lado del triángulo'))
-                let triangulo = new Triangulo(basetri,alturatri,ladotri1,ladotri2)
+                let triangulo = new Triangulo(basetri,ladotri1,ladotri2,alturatri)
                 console.log("Área=" + triangulo.area())
                 console.log("Perímetro=" + triangulo.perimetro())
                 break
